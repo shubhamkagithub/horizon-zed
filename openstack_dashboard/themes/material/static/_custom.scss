@@ -1,0 +1,57 @@
+.container-login-img {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-login {
+    width: 100%;
+    height: 100vh;
+    background: #f5f5f5;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-pic {
+    width: 60%;
+}
+
+.img {
+    background-image: url("../../../static/dashboard/img/cloudpoint-bg.png");
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container.login {
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 992px) {
+  .login-pic {
+    width: 50%;
+  }
+  .container-login {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .login-pic {
+    display: none;
+  }
+  .container-login {
+    width: 100%;
+  }
+}
