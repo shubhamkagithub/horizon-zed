@@ -1,3 +1,18 @@
+.breadcrumb__copyright {
+  margin-top: 180px !important;
+}
+
+.breadcrumb__copyright b {
+  font-size: 1.2rem;
+  color: #666666;
+  vertical-align: middle;
+}
+
+.breadcrumb__copyright img {
+    vertical-align: middle;
+    width: 64px;
+}
+
 .datepicker table tr td.day:hover,
 .datepicker table tr td.day.focused {
   background: #002D42;
@@ -8,11 +23,9 @@
 #sidebar .openstack-panel > a:focus,
 #sidebar .nav-header > a:focus {
   background-color: #002D42;
-  color: #fff
+  color: #fff;
   outline: 0;
 }
-
-
 
 .container-login-img {
     width: 100%;
