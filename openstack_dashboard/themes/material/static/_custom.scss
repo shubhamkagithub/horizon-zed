@@ -1,3 +1,19 @@
+.datepicker table tr td.day:hover,
+.datepicker table tr td.day.focused {
+  background: #002D42;
+  cursor: pointer;
+}
+
+#sidebar .openstack-dashboard > a:focus,
+#sidebar .openstack-panel > a:focus,
+#sidebar .nav-header > a:focus {
+  background-color: #002D42;
+  color: #fff
+  outline: 0;
+}
+
+
+
 .container-login-img {
     width: 100%;
     min-height: 100vh;
