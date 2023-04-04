@@ -1,5 +1,8 @@
 .breadcrumb__copyright {
-  margin-top: 90px !important;
+  margin-top: 60px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .breadcrumb__copyright b {
