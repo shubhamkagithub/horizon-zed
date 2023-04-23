@@ -4,7 +4,7 @@ import yaml
 from django.http import HttpResponse, JsonResponse
 from django.views import generic
 
-CONFIG = yaml.safe_load(open('/usr/share/openstack-dashboard/openstack_dashboard/dashboards/vprotect/config.yaml', 'r'))
+CONFIG = yaml.safe_load(open('/var/lib/openstack/lib/python3.8/site-packages/openstack_dashboard/dashboards/vprotect/config.yaml', 'r'))
 VPROTECT_API_URL = CONFIG['REST_API_URL']
 USER = CONFIG['USER']
 PASSWORD = CONFIG['PASSWORD']
