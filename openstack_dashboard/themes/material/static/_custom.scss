@@ -18,3 +18,24 @@ body {
         background-position: 0% 50%;
     }
 }
+html,body:not(#splash) {
+    height: 100%;
+    background: white;
+}
+.datepicker table tr td.day:hover,
+.datepicker table tr td.day.focused {
+  background: #244567;
+  cursor: pointer;
+}
+
+#sidebar .openstack-dashboard > a:focus,
+#sidebar .openstack-panel > a:focus,
+#sidebar .nav-header > a:focus {
+  background-color: #244567;
+  color: #fff;
+  outline: 0;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
