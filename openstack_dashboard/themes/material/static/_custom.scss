@@ -39,3 +39,23 @@ html,body:not(#splash) {
 .navbar-brand img {
     height: 50px;
 }
+
+.breadcrumb__copyright {
+  margin-top: 60px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.breadcrumb__copyright b {
+  font-size: 1.2rem;
+  color: #666666;
+  vertical-align: middle;
+}
+
+.breadcrumb__copyright img {
+    vertical-align: middle;
+    width: 64px;
+    color: #fff;
+}
+
