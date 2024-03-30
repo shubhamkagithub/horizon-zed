@@ -1,3 +1,10 @@
+body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-size: 400% 400%;
+}
+
 html,body:not(#splash) {
     height: 100%;
     background: white;
@@ -29,7 +36,6 @@ html,body:not(#splash) {
 
 .breadcrumb__copyright b {
   font-size: 1.2rem;
-  color: #fff;
   vertical-align: middle;
 }
 
