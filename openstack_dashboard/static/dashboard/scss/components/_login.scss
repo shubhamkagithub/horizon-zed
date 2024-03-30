@@ -3,11 +3,12 @@
  */
 
 .login {
-  margin: auto;
+  margin-top: $navbar-height*2;
 
   .splash-logo {
+    margin: $padding-large-horizontal $padding-large-vertical;
     margin: 50px 10px;
-    max-width: 80%;
+    max-width: 95%;
   }
 
   .help_text {
