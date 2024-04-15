@@ -183,7 +183,7 @@ CREATE_INSTANCE_FLAVOR_SORT = {}
 DISALLOW_IFRAME_EMBED = True
 
 # Specify a maximum number of items to display in a dropdown.
-DROPDOWN_MAX_ITEMS = 30
+DROPDOWN_MAX_ITEMS = 100
 
 ENABLE_CLIENT_TOKEN = True
 # Set this to True to display an 'Admin Password' field on the Change Password
