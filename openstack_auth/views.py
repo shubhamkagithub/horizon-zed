@@ -163,7 +163,7 @@ def login(request):
             form_class=form,
             extra_context=extra_context,
             redirect_authenticated_user=False)(request)
-	    except exceptions.KeystoneTOTPRequired as exc:
+    except exceptions.KeystoneTOTPRequired as exc:
         res = django_http.HttpResponseRedirect(
             reverse('totp', args=[request.POST.get('username')]))
         request.session['receipt'] = exc.receipt
