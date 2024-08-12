@@ -1279,11 +1279,11 @@ like this:
 
 .. code-block:: python
 
-       [
-               'openstack_auth.plugin.totp.TotpPlugin',
-                       'openstack_auth.plugin.password.PasswordPlugin',
-                               'openstack_auth.plugin.token.TokenPlugin'
-                                   ]
+    [
+        'openstack_auth.plugin.totp.TotpPlugin',
+        'openstack_auth.plugin.password.PasswordPlugin',
+        'openstack_auth.plugin.token.TokenPlugin'
+    ]
 
 AUTHENTICATION_URLS
 ~~~~~~~~~~~~~~~~~~~
